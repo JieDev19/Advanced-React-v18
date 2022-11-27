@@ -1,3 +1,5 @@
+import Setup from "./tutorials/1-useState/ErrorExample.jsx"
+
 function App() {
     const data = [
         {id: 1, name: "john"},
@@ -7,7 +9,7 @@ function App() {
     ]
     return (
         <div className="container">
-            <h2>Advanced Tutorial</h2>
+            <Setup/>
         </div>
     )
 }
