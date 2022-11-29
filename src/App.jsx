@@ -1,4 +1,4 @@
-import Setup from "./tutorials/1-useState/ErrorExample.jsx"
+import Setup from "./tutorials/1-useState/UseStateArray.jsx"
 
 function App() {
     const data = [
