@@ -1,9 +1,11 @@
 import { useEffect, useState } from "react"
 
+// api
 const url = "https://api.github.com/users"
 export default function UseEffectFetchData() {
     const [users, setUsers] = useState([])
 
+    // use to fetch api
     async function getUsers() {
         const res = await fetch(url)
         const users = await res.json()
@@ -11,9 +13,10 @@ export default function UseEffectFetchData() {
         setUsers(users)
     }
 
+
     useEffect(() => {
         getUsers()
-    }, [url])
+    }, [])
 
     /*useEffect(() => {
         async function fetchData() {

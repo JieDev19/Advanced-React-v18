@@ -1,4 +1,4 @@
-import Setup from "./tutorials/1-useState/UseStateArray.jsx"
+import Setup from "./tutorials/2-useEffect/UseEffectFetchData"
 
 function App() {
     const data = [
